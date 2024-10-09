@@ -9,31 +9,36 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color:black;
+    background-color:#fff;
 }
 
 .box{
     font: 2.5em sans-serif;
     margin-top: 1rem;
+    color: #fff;
+    box-shadow: 8px -8px 15px rgba(255, 255, 255, 0.1);
 }
 
 .main{
-    height: 34rem;
-    width: 20rem;
+    height: 37rem;
+    width: 25rem;
     border: 3px solid #fff;
     margin-top: 5rem;
-    background-color:skyblue;
+    background-color:black;
     border-radius: 1rem;
     
 }
 input{
-    width: 17rem;
+    width: 19rem;
     height: 3rem;
     margin-top: 2rem;
-    border: 5px solid black ;
+    border: none;
+    /* border: 3px solid white ; */
     font-size: 2rem;
-    color: black;
-    background-color: #fff;
+    text-align: right;
+    color:#fff ;
+    background-color:black ;
+   
 
 }
 
@@ -48,19 +53,26 @@ input{
     
 }
 .box2{
-    height: 3.5rem;
-    width: 3.5rem; 
-    border: 2px solid #fff;
-    border-radius: 0.5rem;
-    font-size: 2.3rem;
-    background-color: #fff;
-    color: rgb(40, 187, 245);
+    /* height: 3.5rem;
+    width: 3.5rem;  */
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    border: none;
+    /* border-radius: 0.5rem; */
+    font-size: 2.6rem;
+    background-color: #000;
+    /* color: rgb(40, 187, 245); */
+    color: #ffffff;
     cursor: pointer;
+    /* box-shadow: 10px 10px 15px rgb(33, 31, 31); */
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
    
 }
 .operator{
-    background-color: orange;
-    border: 2px solid orange ;
+    background-color: #000;
+    border: 2px solid  #000 ;
     color: #fff;
     cursor: pointer;
 }
